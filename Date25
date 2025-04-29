@@ -1,0 +1,154 @@
+# # def addlast():
+# #      rollnum.append(int(input("Enter roll number: ")))
+# #      display()
+
+
+# # def insertele():
+# #     pos = int(input("Enter position: "))
+# #     if pos <= len(rollnum):
+# #             ele = int(input("Enter element: "))
+# #             rollnum.insert(pos, ele)
+# #             display()
+# #     else:
+# #             print("Position must be within the list length.")
+
+
+# # def addlist():
+# #     n = int(input("How many roll numbers to append as a list"))
+# #     new_list = []
+# #     for i in range(n):
+# #             new_list.append(int(input("Enter roll number:")))
+# #     rollnum.extend(new_list)
+# #     display()
+
+
+# # def modifylist():
+# #      pos = int(input("Enter the position to modify: "))
+# #      if pos < len(rollnum):
+# #             ele = int(input("Enter new roll number: "))
+# #             rollnum[pos] = ele
+# #             display()
+# #      else:
+# #             print("Invalid position.")
+
+
+
+# # def delpos():
+# #      pos = int(input("Enter position to delete: "))
+# #      if pos < len(rollnum):
+# #             del rollnum[pos]
+# #             display()
+# #      else:
+# #             print("Position is out of range.")
+
+
+
+# # def delval():
+# #      val = int(input("Enter the roll number to delete: "))
+# #      if val in rollnum:
+# #             rollnum.remove(val)
+# #             display()
+# #      else:
+# #             print("Roll number not found in the list.")
+
+
+# # def sorting():
+# #      rollnum.sort()
+# #      display()
+
+
+# # def reversesorting():
+# #      rollnum.sort(reverse=True)
+# #      display()
+
+
+
+# # def display():
+# #      print(rollnum)
+
+     
+# # print("If you want to enroll the student (Y/N)")
+# # rollnum = []
+# # choice = input("Enter choice: ")
+# # while choice != "N":
+# #     print("\nChoose an operation:")
+# #     print("1.Append an Element")
+# #     print("2.Insert an Element")
+# #     print("3.Append a List to the Given List")
+# #     print("4.Modify an Existing Element")
+# #     print("5.Delete an Existing Element by Position")
+# #     print("6.Delete an Existing Element by Value")
+# #     print("7.Sort the List in Ascending Order")
+# #     print("8.Sort the List in Descending Order")
+# #     print("9.Display List")
+# #     option = int(input("Enter option: "))
+# #     if option == 1:
+# #        addlast()
+# #     elif option == 2:
+# #         insertele()
+# #     elif option == 3:
+# #         addlist()
+# #     elif option == 4:
+# #         modifylist()
+# #     elif option == 5:
+# #         delpos()
+# #     elif option == 6:
+# #         delval()
+# #     elif option == 7:
+# #         sorting()
+# #     elif option == 8:
+# #         reversesorting()
+# #     elif option == 9:
+# #         display()
+# #     else:
+# #         print("Invalid option.")
+# #     choice = input("you want to entroll (Y/N): ")
+
+# dic={1:'dhar',"name":"dhara"}
+# print(dic)
+# a={1:'apple',2:"banana"}
+# print(a)
+# print(dic[1])
+# num=dict(x=5,y=6) 
+# """keyword arguments"""
+# print(num)
+# num1=dict({1:"dhar",2:"dhara"})
+# print(num1)
+# # num2=dict([(1:"dhara"),(2:"gayu")])
+# # print(num2)
+# num3={"child1":{"name":"dhara","age":"20"},
+#       "child2":{"name":"gayu","age":"30"}
+#       }
+# print(num3["child2"])
+# print(num3)
+# num3["hobby"]="sleep"
+# print(num3)
+# # print(dir(dict))
+# print(len(num3))
+# for x in num3:
+#     print(x,num3[x])
+# print(num3.keys())
+# print(num3.values())
+# print(num3.items())
+# # print(num3.clear())
+# z=list(num3)
+# print(z)
+# print(num3.pop("hobby"))
+# print(num3)
+# print(num3.popitem())
+# f={1:"one",2:"two"}
+# print(f.get(1,"not found"))
+# print(f.get(3,"not found"))
+# ff=f.copy()
+# print(ff)
+# f1={2:"three"}
+# f.update(f1)
+# print(f)
+# sq={}
+# for i in range(5):
+#     sq[i]=i*i 
+#     print(sq)
+# sqq={x:x*x for x in range(5)}
+# print(sqq)
+
+
